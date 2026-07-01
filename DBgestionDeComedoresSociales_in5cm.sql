@@ -1,0 +1,4 @@
+drop database if exists DBgestionDeComedoresSociales_in5cm;
+create database DBgestionDeComedoresSociales_in5cm;
+use DBgestionDeComedoresSociales;
+
