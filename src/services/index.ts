@@ -1,0 +1,9 @@
+export { CategoriaService } from "./categoriaService";
+export { ProductoService } from "./productoService";
+export { PersonalService } from "./personalService";
+export { DonanteService } from "./donanteService";
+export { MovimientoService } from "./movimientoService";
+export { PromesaService } from "./promesaService";
+export { AuthService } from "./authService";
+export { ReporteService } from "./reporteService";
+export { comedorService } from "./comedorService";
