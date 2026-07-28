@@ -1,5 +1,5 @@
 import * as http from "http";
-import { routes } from "./router.js";
+import { routes } from "./router";
 
 export function iniciarServidor() {
     const servidor = http.createServer(async (req, res) => {
