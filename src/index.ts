@@ -1,10 +1,9 @@
-import { iniciarServidor } from "./api/server.js";
-import { ejecutarPruebasBackend } from "./utils/testRunner.js";
+import { iniciarServidor } from "./api/server";
+import { mostrarMenuPrincipal } from "./menu/menu";
 
 async function main() {
     iniciarServidor();
-
-    await ejecutarPruebasBackend();
+    await mostrarMenuPrincipal();
 }
 
 main();
